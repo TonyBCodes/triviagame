@@ -1,14 +1,8 @@
 # triviagame
 Varied Topic Trivia Game
 
-You'll create a trivia game that shows only one question until the player answers it or their time runs out.
-If the player selects the correct answer, show a screen congratulating them for choosing the right option. After a few seconds, display the next question -- do this without user input.
+This game uses ajax to pull questions and answers from trivia api site.  The questions and answers are dynamically created on the screen.  Upon start, a timer is initialized and there is a limited time to answer each question.  Score is kept in boxes and play is 10 questions.
 
-The scenario is similar for wrong answers and time-outs.
+Wins and loses are detemined by correct and incorrect guesses.
 
-
-If the player runs out of time, tell the player that time's up and display the correct answer. Wait a few seconds, then show the next question.
-If the player chooses the wrong answer, tell the player they selected the wrong option and then display the correct answer. Wait a few seconds, then show the next question.
-
-
-On the final screen, show the number of correct answers, incorrect answers, and an option to restart the game (without reloading the page).
+Utilizes html, css, ajax.
